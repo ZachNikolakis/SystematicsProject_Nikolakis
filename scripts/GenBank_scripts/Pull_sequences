@@ -1,0 +1,12 @@
+### Pulling sequences  ###
+### Creating character matrix ###
+### Changing GenBank Accession Numbers to Taxon Names ###
+### Using Dendropy ###
+import sys
+import dendropy
+from dendropy.interop import genbank
+gb_NAME_OF_TAXA_AND_GENE = genbank.GenBankDna(ids=['GENBANKACCESSION1','GENBANKACCESSION2'])
+char_mat = gb_NAME_OF_TAXA_AND_GENE.generate_char_matrix(label_components=["organism",])
+sys.stdout=open("GENE_TAXA.fasta.txt", "w")
+print(char_mat.as_string("fasta"))
+sys.stdout.close()

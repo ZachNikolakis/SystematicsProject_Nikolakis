@@ -1,0 +1,75 @@
+--------------------------------------
+Running PBS prologue script
+--------------------------------------
+User and Job Data:
+--------------------------------------
+Job ID:    475474.qb3
+Username:  zach
+Group:     loniusers
+Date:      27-Mar-2018 19:58
+Node:      qb063 (54795)
+--------------------------------------
+PBS has allocated the following nodes:
+
+qb063
+
+A total of 20 processors on 1 nodes allocated
+---------------------------------------------
+Check nodes and clean them of stray processes
+---------------------------------------------
+Checking node qb063 19:58:03 
+Done clearing all the allocated nodes
+------------------------------------------------------
+Concluding PBS prologue script - 27-Mar-2018 19:58:03
+------------------------------------------------------
+PASTA INFO: Reading input sequences from 'RAG2_Turtle.fasta'...
+PASTA INFO: Configuration written to "/work/zach/SystematicsProject_Nikolakis/data/Turtle_fasta_files/RAG2_Turtle_temp_pasta_config.txt".
+
+PASTA INFO: Directory for temporary files created at /home/zach/.pasta/RAG2_Turtle/tempwx3poyl0
+PASTA INFO: Name translation information saved to /work/zach/SystematicsProject_Nikolakis/data/Turtle_fasta_files/RAG2_Turtle_temp_name_translation.txt as safe name, original name, blank line format.
+PASTA INFO: Creating a starting tree for the PASTA algorithm...
+PASTA INFO: Performing initial alignment of the entire data matrix...
+PASTA INFO: Performing initial tree search to get starting tree...
+PASTA INFO: Starting PASTA algorithm on initial tree...
+PASTA INFO: Max subproblem set to 67
+PASTA INFO: Step 0. Realigning with decomposition strategy set to mincluster
+PASTA INFO: Step 0. Alignment obtained. Tree inference beginning...
+PASTA INFO: realignment accepted and score improved.
+PASTA INFO: current score: -4784.153499, best score: -4784.153499
+PASTA INFO: Step 1. Realigning with decomposition strategy set to mincluster
+PASTA INFO: Step 1. Alignment obtained. Tree inference beginning...
+PASTA INFO: realignment accepted and despite the score not improving.
+PASTA INFO: current score: -4784.153741, best score: -4784.153499
+PASTA INFO: Step 2. Realigning with decomposition strategy set to mincluster
+PASTA INFO: Step 2. Alignment obtained. Tree inference beginning...
+PASTA INFO: realignment accepted and despite the score not improving.
+PASTA INFO: current score: -4784.15374, best score: -4784.153499
+PASTA INFO: Writing resulting alignment to /work/zach/SystematicsProject_Nikolakis/data/Turtle_fasta_files/RAG2_Turtle.marker001.RAG2_Turtle.aln
+PASTA INFO: Writing resulting tree to /work/zach/SystematicsProject_Nikolakis/data/Turtle_fasta_files/RAG2_Turtle.tre
+PASTA INFO: Writing resulting likelihood score to /work/zach/SystematicsProject_Nikolakis/data/Turtle_fasta_files/RAG2_Turtle.score.txt
+PASTA INFO: The resulting alignment (with the names in a "safe" form) was first written as the file "/work/zach/SystematicsProject_Nikolakis/data/Turtle_fasta_files/RAG2_Turtle_temp_iteration_2_seq_alignment.txt"
+PASTA INFO: The resulting tree (with the names in a "safe" form) was first written as the file "/work/zach/SystematicsProject_Nikolakis/data/Turtle_fasta_files/RAG2_Turtle_temp_iteration_2_tree.tre"
+PASTA INFO: Total time spent: 110.16067337989807s
+Refused to clean '/home/zach/.pasta/RAG2_Turtle/tempwx3poyl0/init_aln': not created by PASTA
+'/home/zach/.pasta/RAG2_Turtle/tempwx3poyl0/init_aln' is not registered as a temporary directory that was created by this process!
+------------------------------------------------------
+Running PBS epilogue script    - 27-Mar-2018 19:59:54
+------------------------------------------------------
+Checking node qb063 (MS)
+Checking node qb063 ok
+------------------------------------------------------
+Concluding PBS epilogue script - 27-Mar-2018 19:59:56
+------------------------------------------------------
+Exit Status:     0
+Job ID:          475474.qb3
+Username:        zach
+Group:           loniusers
+Job Name:        pasta
+Session Id:      54794
+Resource Limits: ncpus=1,neednodes=1:ppn=20,nodes=1:ppn=20,walltime=03:00:00
+Resources Used:  cput=00:16:17,mem=546088kb,vmem=23364512kb,walltime=00:01:53
+Queue Used:      workq
+Account String:  loni_selu_sys
+Node:            qb063
+Process id:      57040
+------------------------------------------------------

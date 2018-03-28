@@ -12,6 +12,12 @@
 
 module load java
 module load python/3.5.2-anaconda-tensorflow
+<<<<<<< HEAD
 cd  /work/zach/SystematicsProject_Nikolakis/data/Turtle_output/
 
 python ~/pasta/run_pasta.py -i CYTB_TUrtle.fasta  --tree-estimator=raxml -j Cytb_Turtle
+=======
+cd  /work/zach/SystematicsProject_Nikolakis/data/Turtle_fasta_files/
+
+python ~/pasta/run_pasta.py -i CYTB_Turtle.fasta  --tree-estimator=raxml -j Cytb_Turtle
+>>>>>>> 9c57152cfc0a51839dd8e2bad64d9b5c6406b5dd

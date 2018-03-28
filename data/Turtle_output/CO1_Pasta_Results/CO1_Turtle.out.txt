@@ -1,0 +1,25 @@
+PASTA INFO: Directory for temporary files created at /home/zach/.pasta/CO1_Turtle/temp4p9n97ke
+PASTA INFO: Name translation information saved to /work/zach/SystematicsProject_Nikolakis/data/Turtle_fasta_files/CO1_Turtle_temp_name_translation.txt as safe name, original name, blank line format.
+PASTA INFO: Creating a starting tree for the PASTA algorithm...
+PASTA INFO: Performing initial alignment of the entire data matrix...
+PASTA INFO: Performing initial tree search to get starting tree...
+PASTA INFO: Starting PASTA algorithm on initial tree...
+PASTA INFO: Max subproblem set to 110
+PASTA INFO: Step 0. Realigning with decomposition strategy set to mincluster
+PASTA INFO: Step 0. Alignment obtained. Tree inference beginning...
+PASTA INFO: realignment accepted and score improved.
+PASTA INFO: current score: -31755.979644, best score: -31755.979644
+PASTA INFO: Step 1. Realigning with decomposition strategy set to mincluster
+PASTA INFO: Step 1. Alignment obtained. Tree inference beginning...
+PASTA INFO: realignment accepted and despite the score not improving.
+PASTA INFO: current score: -31764.17786, best score: -31755.979644
+PASTA INFO: Step 2. Realigning with decomposition strategy set to mincluster
+PASTA INFO: Step 2. Alignment obtained. Tree inference beginning...
+PASTA INFO: realignment accepted and score improved.
+PASTA INFO: current score: -31717.044483, best score: -31717.044483
+PASTA INFO: Writing resulting alignment to /work/zach/SystematicsProject_Nikolakis/data/Turtle_fasta_files/CO1_Turtle.marker001.CO1_Turtle.aln
+PASTA INFO: Writing resulting tree to /work/zach/SystematicsProject_Nikolakis/data/Turtle_fasta_files/CO1_Turtle.tre
+PASTA INFO: Writing resulting likelihood score to /work/zach/SystematicsProject_Nikolakis/data/Turtle_fasta_files/CO1_Turtle.score.txt
+PASTA INFO: The resulting alignment (with the names in a "safe" form) was first written as the file "/work/zach/SystematicsProject_Nikolakis/data/Turtle_fasta_files/CO1_Turtle_temp_iteration_2_seq_alignment.txt"
+PASTA INFO: The resulting tree (with the names in a "safe" form) was first written as the file "/work/zach/SystematicsProject_Nikolakis/data/Turtle_fasta_files/CO1_Turtle_temp_iteration_2_tree.tre"
+PASTA INFO: Total time spent: 354.53466033935547s

@@ -1,0 +1,73 @@
+--------------------------------------
+Running PBS prologue script
+--------------------------------------
+User and Job Data:
+--------------------------------------
+Job ID:    475467.qb3
+Username:  zach
+Group:     loniusers
+Date:      27-Mar-2018 19:56
+Node:      qb025 (22007)
+--------------------------------------
+PBS has allocated the following nodes:
+
+qb025
+
+A total of 20 processors on 1 nodes allocated
+---------------------------------------------
+Check nodes and clean them of stray processes
+---------------------------------------------
+Checking node qb025 19:56:36 
+Done clearing all the allocated nodes
+------------------------------------------------------
+Concluding PBS prologue script - 27-Mar-2018 19:56:36
+------------------------------------------------------
+PASTA INFO: Reading input sequences from 'BMP2_Turtle.fasta'...
+PASTA INFO: Configuration written to "/work/zach/SystematicsProject_Nikolakis/data/Turtle_fasta_files/BMP2_Turtle_temp_pasta_config.txt".
+
+PASTA INFO: Directory for temporary files created at /home/zach/.pasta/BMP2_Turtle/temp4m0ajkk7
+PASTA INFO: Name translation information saved to /work/zach/SystematicsProject_Nikolakis/data/Turtle_fasta_files/BMP2_Turtle_temp_name_translation.txt as safe name, original name, blank line format.
+PASTA INFO: Creating a starting tree for the PASTA algorithm...
+PASTA INFO: Performing initial alignment of the entire data matrix...
+PASTA INFO: Performing initial tree search to get starting tree...
+PASTA INFO: Starting PASTA algorithm on initial tree...
+PASTA INFO: Max subproblem set to 23
+PASTA INFO: Step 0. Realigning with decomposition strategy set to mincluster
+PASTA INFO: Step 0. Alignment obtained. Tree inference beginning...
+PASTA INFO: realignment accepted and despite the score not improving.
+PASTA INFO: current score: -2101.641406, best score: -2100.842739
+PASTA INFO: Step 1. Realigning with decomposition strategy set to mincluster
+PASTA INFO: Step 1. Alignment obtained. Tree inference beginning...
+PASTA INFO: realignment accepted and despite the score not improving.
+PASTA INFO: current score: -2101.682119, best score: -2100.842739
+PASTA INFO: Step 2. Realigning with decomposition strategy set to mincluster
+PASTA INFO: Step 2. Alignment obtained. Tree inference beginning...
+PASTA INFO: realignment accepted and despite the score not improving.
+PASTA INFO: current score: -2101.682119, best score: -2100.842739
+PASTA INFO: Writing resulting alignment to /work/zach/SystematicsProject_Nikolakis/data/Turtle_fasta_files/BMP2_Turtle.marker001.BMP2_Turtle.aln
+PASTA INFO: Writing resulting tree to /work/zach/SystematicsProject_Nikolakis/data/Turtle_fasta_files/BMP2_Turtle.tre
+PASTA INFO: Writing resulting likelihood score to /work/zach/SystematicsProject_Nikolakis/data/Turtle_fasta_files/BMP2_Turtle.score.txt
+PASTA INFO: The resulting alignment (with the names in a "safe" form) was first written as the file "/work/zach/SystematicsProject_Nikolakis/data/Turtle_fasta_files/BMP2_Turtle_temp_iteration_2_seq_alignment.txt"
+PASTA INFO: The resulting tree (with the names in a "safe" form) was first written as the file "/work/zach/SystematicsProject_Nikolakis/data/Turtle_fasta_files/BMP2_Turtle_temp_iteration_2_tree.tre"
+PASTA INFO: Total time spent: 72.22522473335266s
+------------------------------------------------------
+Running PBS epilogue script    - 27-Mar-2018 19:57:49
+------------------------------------------------------
+Checking node qb025 (MS)
+Checking node qb025 ok
+------------------------------------------------------
+Concluding PBS epilogue script - 27-Mar-2018 19:57:51
+------------------------------------------------------
+Exit Status:     0
+Job ID:          475467.qb3
+Username:        zach
+Group:           loniusers
+Job Name:        pasta
+Session Id:      22006
+Resource Limits: ncpus=1,neednodes=1:ppn=20,nodes=1:ppn=20,walltime=03:00:00
+Resources Used:  cput=00:21:03,mem=470868kb,vmem=23094372kb,walltime=00:01:15
+Queue Used:      workq
+Account String:  loni_selu_sys
+Node:            qb025
+Process id:      24226
+------------------------------------------------------

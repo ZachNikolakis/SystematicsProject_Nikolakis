@@ -1,0 +1,4 @@
+# Using FastSP to compare alignments from all alignment methods 
+# Did not use this for each gene, just concatenated data sets
+# Example of what it looks like 
+java -jar ~/FastSP/FastSP.jar -r Pasta_Turtle_Concat -e Mafft_Turtle_Concat

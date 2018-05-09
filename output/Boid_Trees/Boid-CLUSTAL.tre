@@ -1,0 +1,241 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=139;
+	taxlabels
+	'Acrantophis_cf._dumerili'
+	Acrantophis_dumerili
+	Acrantophis_madagascariensis
+	Acrochordus_granulatus[&!name="Acrocordidae"]
+	Anilius_scytale[&!name="Aniliidae"]
+	Anolis_carolinensis
+	Anomochilus_leonardi[&!name="Anomochilidae"]
+	Antaresia_childreni
+	Antaresia_maculosa
+	Antaresia_perthensis
+	Antaresia_stimsoni
+	Aspidites_melanocephalus
+	Aspidites_ramsayi
+	Boa_constrictor
+	Boa_constrictor_amarali
+	Boa_constrictor_constrictor
+	Boa_constrictor_occidentalis
+	Boa_constrictor_sabogae
+	Boa_imperator
+	Bothrochilus_albertisii
+	Bothrochilus_boa
+	Bothrops_asper
+	Brachyophidium_rhodogaster
+	Calabaria_reinhardtii[&!name="Calabariidae"]
+	Candoia_aspera
+	Candoia_bibroni
+	Candoia_carinata
+	Candoia_superciliosa_crombiei
+	Candoia_superciliosa_superciliosa
+	Casarea_dussumieri[&!name="Boylerlidae"]
+	Charina_bottae
+	Charina_umbratica
+	Chilabothrus_angulifer
+	Chilabothrus_chrysogaster
+	Chilabothrus_exsul
+	Chilabothrus_fordii
+	Chilabothrus_granti
+	Chilabothrus_inornatus
+	Chilabothrus_striatus
+	Chilabothrus_strigilatus
+	Chilabothrus_strigilatus_strigilatus
+	Chilabothrus_subflavus
+	Corallus_annulatus
+	Corallus_batesii
+	Corallus_caninus
+	Corallus_cookii
+	Corallus_cropanii
+	Corallus_grenadensis
+	Corallus_hortulanus
+	Corallus_ruschenbergerii
+	Cylindrophis_maculatus[&!name="Cylindrophiidae"]
+	Cylindrophis_ruffus[&!name="Cylindrophiidae"]
+	Epicrates_alvarezi
+	Epicrates_assisi
+	Epicrates_cenchria
+	Epicrates_crassus
+	Epicrates_maurus
+	Eryx_colubrinus
+	Eryx_colubrinus_colubrinus
+	Eryx_conicus
+	Eryx_elegans
+	Eryx_jaculus
+	Eryx_jayakari
+	Eryx_johnii
+	Eryx_miliaris
+	Eryx_miliaris_nogaiorum
+	Eryx_muelleri
+	Eryx_tataricus
+	Eryx_tataricus_vittatus
+	Eunectes_murinus
+	Eunectes_notaeus
+	Exiliboa_placata
+	Iguana_iguana
+	Lampropeltis_getula
+	Liasis_fuscus
+	Liasis_mackloti
+	Liasis_mackloti_savuensis
+	Liasis_olivaceus
+	Liasis_papuana
+	Lichanura_trivirgata
+	Liotyphlops_albirostris[&!name="Scolecophidia"]
+	Loxocemus_bicolor[&!name="Loxocemidae"]
+	Malayopython_reticulatus
+	Malayopython_reticulatus_jampeanus
+	Malayopython_reticulatus_saputrai
+	Malayopython_timoriensis
+	Melanophidium_punctatum
+	Micrurus_fulvius
+	Morelia_bredli
+	Morelia_carinata
+	Morelia_spilota
+	Morelia_spilota_variegata
+	Morelia_viridis
+	Python_anchietae
+	Python_bivittatus
+	Python_brongersmai
+	Python_curtus
+	Python_molurus
+	Python_molurus_molurus
+	Python_regius
+	Python_sebae
+	Rena_humilis
+	Rhinophis_blythii
+	Rhinophis_dorsimaculatus
+	Rhinophis_drummondhayi
+	Rhinophis_homolepis
+	Rhinophis_oxyrhynchus
+	Rhinophis_philippinus
+	Rhinophis_travancoricus
+	Sanzinia_madagascariensis
+	Sanzinia_madagascariensis_madagascariensis
+	Sanzinia_madagascariensis_volontany
+	Simalia_amethistina
+	Simalia_boeleni
+	Simalia_clastolepis
+	Simalia_kinghorni
+	Simalia_nauta
+	Simalia_oenpelliensis
+	Simalia_tracyae
+	Thamnophis_marcianus
+	Trachyboa_boulengeri
+	Trachyboa_gularis
+	Tropidophis_curtus
+	Tropidophis_feicki
+	Tropidophis_greenwayi
+	Tropidophis_greenwayi_lanthanus
+	Tropidophis_haetianus
+	Tropidophis_melanurus
+	Tropidophis_pardalis
+	Tropidophis_taczanowskyi
+	Tropidophis_wrighti
+	Typhlops_jamaicensis
+	Ungaliophis_continentalis
+	Uropeltis_ceylanicus
+	Uropeltis_liura
+	Uropeltis_melanogaster
+	Uropeltis_phillipsi
+	Xenopeltis_unicolor[&!name="Xenopeltidae"]
+	Xenophidion_schaeferi[&!name="Xenophidiidae"]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (Trachyboa_boulengeri[&!name="Tropidophiidae"]:0.008233,((Tropidophis_greenwayi_lanthanus[&!name="Tropidophiidae"]:0.073296,(((Tropidophis_wrighti[&!name="Tropidophiidae"]:0.004335,Tropidophis_pardalis[&!name="Tropidophiidae"]:0.001573)[&BS=100,!name="Tropidophiidae"]:0.033565,(Tropidophis_melanurus[&!name="Tropidophiidae"]:0.013467,Tropidophis_feicki[&!name="Tropidophiidae"]:0.024008)[&BS=81,!name="Tropidophiidae"]:0.012807)[&BS=83,!name="Tropidophiidae"]:0.016487,(Tropidophis_curtus[&!name="Tropidophiidae"]:0.036388,(Tropidophis_haetianus[&!name="Tropidophiidae"]:0.007797,Tropidophis_greenwayi[&!name="Tropidophiidae"]:0.01948)[&BS=94,!name="Tropidophiidae"]:0.011041)[&BS=72,!name="Tropidophiidae"]:0.023231)[&BS=88,!name="Tropidophiidae"]:0.0193)[&BS=90,!name="Tropidophiidae"]:0.010073,(Tropidophis_taczanowskyi[&!name="Tropidophiidae"]:0.070102,(((((Acrochordus_granulatus[&!rotate=false]:0.171793,(Bothrops_asper[&!name="Caenophidia",!rotate=false]:0.118374,((Lampropeltis_getula[&!name="Caenophidia",!rotate=false]:0.083048,Thamnophis_marcianus[&!name="Caenophidia",!rotate=false]:0.102649)[&BS=100,!name="Caenophidia",!rotate=false]:0.01887,Micrurus_fulvius[&!name="Caenophidia",!rotate=false]:0.139948)[&BS=100,!name="Caenophidia",!rotate=false]:0.028714)[&BS=100,!name="Caenophidia",!collapse={"collapsed",0.20011281214587096},!rotate=false]:0.069134)[&BS=96,!rotate=false]:0.034621,(Xenophidion_schaeferi[&!rotate=false]:0.143709,Casarea_dussumieri[&!rotate=false]:0.10753)[&BS=43,!rotate=false]:0.023583)[&BS=35,!rotate=false]:0.015352,((((((((((Anomochilus_leonardi[&!name="Boidae",!rotate=false]:0.055169,Cylindrophis_maculatus[&!name="Boidae",!rotate=false]:0.032497)[&BS=95,!name="Boidae",!rotate=false]:0.025433,Cylindrophis_ruffus[&!name="Boidae",!rotate=false]:0.046906)[&BS=51,!name="Boidae",!rotate=false]:0.049482,(Morelia_bredli[&!name="Boidae",!rotate=false]:0.018442,(Morelia_spilota_variegata[&!name="Boidae",!rotate=false]:0.010529,Morelia_spilota[&!name="Boidae",!rotate=false]:0.008609)[&BS=100,!name="Boidae",!rotate=false]:0.010581)[&BS=100,!name="Boidae",!rotate=false]:0.078659)[&BS=6,!name="Boidae",!rotate=false]:0.041622,((Sanzinia_madagascariensis_volontany[&!name="Boidae",!rotate=false]:0.025905,Sanzinia_madagascariensis_madagascariensis[&!name="Boidae",!rotate=false]:0.02857)[&BS=97,!name="Boidae",!rotate=false]:0.014209,(Sanzinia_madagascariensis[&!name="Boidae",!rotate=false]:0.011127,(Acrantophis_dumerili[&!name="Boidae",!rotate=false]:0.013926,(Acrantophis_madagascariensis[&!name="Boidae",!rotate=false]:0.006794,'Acrantophis_cf._dumerili'[&!name="Boidae",!rotate=false]:0.017122)[&BS=56,!name="Boidae",!rotate=false]:0.003078)[&BS=65,!name="Boidae",!rotate=false]:0.004905)[&BS=69,!name="Boidae",!rotate=false]:0.020351)[&BS=100,!name="Boidae",!rotate=false]:0.046297)[&BS=6,!name="Boidae",!rotate=false]:0.007409,(Charina_umbratica[&!name="Boidae",!rotate=false]:0.024612,Charina_bottae[&!name="Boidae",!rotate=false]:0.021846)[&BS=95,!name="Boidae",!rotate=false]:0.043132)[&BS=5,!name="Boidae",!rotate=false]:0.00229,(((Eryx_jayakari[&!name="Boidae",!rotate=false]:0.06031,Eryx_muelleri[&!name="Boidae",!rotate=false]:0.045566)[&BS=89,!name="Boidae",!rotate=false]:0.030941,((((Eryx_elegans[&!name="Boidae",!rotate=false]:0.059332,(((Eryx_miliaris_nogaiorum[&!name="Boidae",!rotate=false]:0.005916,Eryx_tataricus[&!name="Boidae",!rotate=false]:0.001207)[&BS=85,!name="Boidae",!rotate=false]:0.002768,Eryx_miliaris[&!name="Boidae",!rotate=false]:0.004186)[&BS=94,!name="Boidae",!rotate=false]:0.008508,Eryx_tataricus_vittatus[&!name="Boidae",!rotate=false]:0.012391)[&BS=99,!name="Boidae",!rotate=false]:0.019344)[&BS=46,!name="Boidae",!rotate=false]:0.006173,Eryx_jaculus[&!name="Boidae",!rotate=false]:0.042238)[&BS=62,!name="Boidae",!rotate=false]:0.006626,(Eryx_conicus[&!name="Boidae",!rotate=false]:0.03835,Eryx_johnii[&!name="Boidae",!rotate=false]:0.017325)[&BS=98,!name="Boidae",!rotate=false]:0.024785)[&BS=46,!name="Boidae",!rotate=false]:0.008153,Eryx_colubrinus_colubrinus[&!name="Boidae",!rotate=false]:0.066101)[&BS=35,!name="Boidae",!rotate=false]:0.008957)[&BS=75,!name="Boidae",!rotate=false]:0.032421,(((Boa_constrictor_sabogae[&!name="Boidae",!rotate=false]:0.022577,((Boa_constrictor_amarali[&!name="Boidae",!rotate=false]:0.007461,(Boa_imperator[&!name="Boidae",!rotate=false]:0.0082,Boa_constrictor_constrictor[&!name="Boidae",!rotate=false]:0.004747)[&BS=63,!name="Boidae",!rotate=false]:0.003011)[&BS=59,!name="Boidae",!rotate=false]:0.006762,Boa_constrictor_occidentalis[&!name="Boidae",!rotate=false]:0.009952)[&BS=96,!name="Boidae",!rotate=false]:0.008737)[&BS=100,!name="Boidae",!rotate=false]:0.05706,(((Corallus_annulatus[&!name="Boidae",!rotate=false]:0.045877,(Corallus_batesii[&!name="Boidae",!rotate=false]:0.002995,Corallus_caninus[&!name="Boidae",!rotate=false]:0.125243)[&BS=100,!name="Boidae",!rotate=false]:0.039058)[&BS=74,!name="Boidae",!rotate=false]:0.010822,((Corallus_hortulanus[&!name="Boidae",!rotate=false]:0.003896,((Corallus_cookii[&!name="Boidae",!rotate=false]:1.0E-6,Corallus_ruschenbergerii[&!name="Boidae",!rotate=false]:0.023572)[&BS=100,!name="Boidae",!rotate=false]:0.20403,Corallus_grenadensis[&!name="Boidae",!rotate=false]:0.001073)[&BS=95,!name="Boidae",!rotate=false]:0.013528)[&BS=100,!name="Boidae",!rotate=false]:0.041974,Corallus_cropanii[&!name="Boidae",!rotate=false]:0.054284)[&BS=31,!name="Boidae",!rotate=false]:0.005207)[&BS=98,!name="Boidae",!rotate=false]:0.013254,((Epicrates_alvarezi[&!name="Boidae",!rotate=false]:0.032431,((Epicrates_crassus[&!name="Boidae",!rotate=false]:0.012998,Epicrates_assisi[&!name="Boidae",!rotate=false]:0.013578)[&BS=100,!name="Boidae",!rotate=false]:0.02029,(Epicrates_maurus[&!name="Boidae",!rotate=false]:0.007577,Epicrates_cenchria[&!name="Boidae",!rotate=false]:0.008271)[&BS=100,!name="Boidae",!rotate=false]:0.009676)[&BS=99,!name="Boidae",!rotate=false]:0.011553)[&BS=92,!name="Boidae",!rotate=false]:0.013499,(Eunectes_murinus[&!name="Boidae",!rotate=false]:0.030363,Eunectes_notaeus[&!name="Boidae",!rotate=false]:0.019843)[&BS=92,!name="Boidae",!rotate=false]:0.027825)[&BS=83,!name="Boidae",!rotate=false]:0.015476)[&BS=50,!name="Boidae",!rotate=false]:0.016196)[&BS=39,!name="Boidae",!rotate=false]:0.013204,((Candoia_aspera[&!name="Boidae",!rotate=false]:0.060814,((Candoia_superciliosa_superciliosa[&!name="Boidae",!rotate=false]:0.002696,Candoia_superciliosa_crombiei[&!name="Boidae",!rotate=false]:1.0E-6)[&BS=100,!name="Boidae",!rotate=false]:0.0222,Candoia_carinata[&!name="Boidae",!rotate=false]:0.021279)[&BS=79,!name="Boidae",!rotate=false]:0.01228)[&BS=83,!name="Boidae",!rotate=false]:0.018571,Candoia_bibroni[&!name="Boidae",!rotate=false]:0.040848)[&BS=99,!name="Boidae",!rotate=false]:0.037994)[&BS=24,!name="Boidae",!rotate=false]:0.004674)[&BS=24,!name="Boidae",!rotate=false]:0.003127)[&BS=0,!name="Boidae",!rotate=false]:0.098018,((Boa_constrictor[&!name="Boidae",!rotate=false]:0.039499,((Chilabothrus_angulifer[&!name="Boidae",!rotate=false]:0.038612,(Chilabothrus_inornatus[&!name="Boidae",!rotate=false]:0.02597,Chilabothrus_granti[&!name="Boidae",!rotate=false]:0.027247)[&BS=99,!name="Boidae",!rotate=false]:0.012149)[&BS=93,!name="Boidae",!rotate=false]:0.008733,((Chilabothrus_chrysogaster[&!name="Boidae",!rotate=false]:0.011518,(Chilabothrus_striatus[&!name="Boidae",!rotate=false]:0.006004,((Chilabothrus_strigilatus[&!name="Boidae",!rotate=false]:1.0E-6,Chilabothrus_exsul[&!name="Boidae",!rotate=false]:0.004238)[&BS=59,!name="Boidae",!rotate=false]:0.003645,Chilabothrus_strigilatus_strigilatus[&!name="Boidae",!rotate=false]:0.009145)[&BS=36,!name="Boidae",!rotate=false]:0.001752)[&BS=59,!name="Boidae",!rotate=false]:0.008068)[&BS=90,!name="Boidae",!rotate=false]:0.022241,(Chilabothrus_subflavus[&!name="Boidae",!rotate=false]:0.031611,Chilabothrus_fordii[&!name="Boidae",!rotate=false]:0.024388)[&BS=45,!name="Boidae",!rotate=false]:0.008507)[&BS=39,!name="Boidae",!rotate=false]:0.005756)[&BS=33,!name="Boidae",!rotate=false]:0.001802)[&BS=60,!name="Boidae",!rotate=false]:0.040491,Eryx_colubrinus[&!name="Boidae",!rotate=false]:0.068161)[&BS=19,!name="Boidae",!rotate=false]:0.007814)[&BS=2,!name="Boidae",!rotate=false]:1.0E-6,(Lichanura_trivirgata[&!name="Boidae",!rotate=false]:0.055305,(Ungaliophis_continentalis[&!name="Boidae",!rotate=false]:0.064507,Exiliboa_placata[&!name="Boidae",!rotate=false]:0.064164)[&BS=100,!name="Boidae",!rotate=false]:0.020804)[&BS=71,!name="Boidae",!rotate=false]:0.005783)[&BS=4,!name="Boidae",!rotate=false,!collapse={"collapsed",0.0}]:0.009897,Calabaria_reinhardtii[&!rotate=false]:0.12601)[&BS=5,!rotate=false]:0.034271,((Uropeltis_liura[&!name="Uropeltidae",!rotate=false]:0.02779,(((Brachyophidium_rhodogaster[&!name="Uropeltidae",!rotate=false]:0.076466,((((Rhinophis_dorsimaculatus[&!name="Uropeltidae",!rotate=false]:0.031487,(Rhinophis_oxyrhynchus[&!name="Uropeltidae",!rotate=false]:0.048246,(Rhinophis_blythii[&!name="Uropeltidae",!rotate=false]:0.027326,Rhinophis_drummondhayi[&!name="Uropeltidae",!rotate=false]:0.015019)[&BS=78,!name="Uropeltidae",!rotate=false]:0.006746)[&BS=45,!name="Uropeltidae",!rotate=false]:0.003796)[&BS=41,!name="Uropeltidae",!rotate=false]:0.002224,Rhinophis_homolepis[&!name="Uropeltidae",!rotate=false]:0.032955)[&BS=52,!name="Uropeltidae",!rotate=false]:0.002778,((Uropeltis_melanogaster[&!name="Uropeltidae",!rotate=false]:0.002803,Uropeltis_phillipsi[&!name="Uropeltidae",!rotate=false]:0.011308)[&BS=79,!name="Uropeltidae",!rotate=false]:0.014109,Rhinophis_philippinus[&!name="Uropeltidae",!rotate=false]:0.040146)[&BS=52,!name="Uropeltidae",!rotate=false]:0.00413)[&BS=59,!name="Uropeltidae",!rotate=false]:0.006993,Rhinophis_travancoricus[&!name="Uropeltidae",!rotate=false]:0.09048)[&BS=81,!name="Uropeltidae",!rotate=false]:0.034506)[&BS=37,!name="Uropeltidae",!rotate=false]:0.005254,Uropeltis_ceylanicus[&!name="Uropeltidae",!rotate=false]:0.104946)[&BS=19,!name="Uropeltidae",!rotate=false]:1.0E-6,Melanophidium_punctatum[&!name="Uropeltidae",!rotate=false]:0.091272)[&BS=24,!name="Uropeltidae",!rotate=false]:0.011967)[&BS=78,!name="Uropeltidae",!collapse={"collapsed",0.2716721360567774},!rotate=false]:0.058931,(Xenopeltis_unicolor[&!rotate=false]:0.09413,(Loxocemus_bicolor[&!rotate=false]:0.082176,(((((Malayopython_reticulatus_saputrai[&!name="Pythonidae",!rotate=false]:0.022263,Malayopython_reticulatus_jampeanus[&!name="Pythonidae",!rotate=false]:1.0E-6)[&BS=100,!name="Pythonidae",!rotate=false]:0.023261,Malayopython_reticulatus[&!name="Pythonidae",!rotate=false]:0.004041)[&BS=100,!name="Pythonidae",!rotate=false]:0.025828,Malayopython_timoriensis[&!name="Pythonidae",!rotate=false]:0.04681)[&BS=99,!name="Pythonidae",!rotate=false]:0.019424,((((Aspidites_melanocephalus[&!name="Pythonidae",!rotate=false]:0.017557,Aspidites_ramsayi[&!name="Pythonidae",!rotate=false]:0.017797)[&BS=100,!name="Pythonidae",!rotate=false]:0.018408,(Simalia_boeleni[&!name="Pythonidae",!rotate=false]:0.028362,(Simalia_tracyae[&!name="Pythonidae",!rotate=false]:0.016573,(Simalia_amethistina[&!name="Pythonidae",!rotate=false]:0.020069,(Simalia_clastolepis[&!name="Pythonidae",!rotate=false]:0.006251,(Simalia_kinghorni[&!name="Pythonidae",!rotate=false]:0.006216,Simalia_nauta[&!name="Pythonidae",!rotate=false]:0.002674)[&BS=55,!name="Pythonidae",!rotate=false]:0.001165)[&BS=97,!name="Pythonidae",!rotate=false]:0.008192)[&BS=86,!name="Pythonidae",!rotate=false]:0.005384)[&BS=100,!name="Pythonidae",!rotate=false]:0.006209)[&BS=92,!name="Pythonidae",!rotate=false]:0.004893)[&BS=16,!name="Pythonidae",!rotate=false]:8.14E-4,Simalia_oenpelliensis[&!name="Pythonidae",!rotate=false]:0.040849)[&BS=19,!name="Pythonidae",!rotate=false]:0.001177,(((Antaresia_perthensis[&!name="Pythonidae",!rotate=false]:0.037678,Antaresia_maculosa[&!name="Pythonidae",!rotate=false]:0.048239)[&BS=57,!name="Pythonidae",!rotate=false]:0.007184,(((Antaresia_childreni[&!name="Pythonidae",!rotate=false]:0.015633,Antaresia_stimsoni[&!name="Pythonidae",!rotate=false]:0.013963)[&BS=100,!name="Pythonidae",!rotate=false]:0.018099,Morelia_carinata[&!name="Pythonidae",!rotate=false]:0.045988)[&BS=34,!name="Pythonidae",!rotate=false]:0.004971,Morelia_viridis[&!name="Pythonidae",!rotate=false]:0.054104)[&BS=8,!name="Pythonidae",!rotate=false]:0.00181)[&BS=17,!name="Pythonidae",!rotate=false]:0.009645,((Bothrochilus_albertisii[&!name="Pythonidae",!rotate=false]:0.022408,Bothrochilus_boa[&!name="Pythonidae",!rotate=false]:0.034544)[&BS=91,!name="Pythonidae",!rotate=false]:0.011616,((Liasis_fuscus[&!name="Pythonidae",!rotate=false]:0.013231,(Liasis_mackloti[&!name="Pythonidae",!rotate=false]:0.001435,Liasis_mackloti_savuensis[&!name="Pythonidae",!rotate=false]:0.006189)[&BS=92,!name="Pythonidae",!rotate=false]:0.003275)[&BS=100,!name="Pythonidae",!rotate=false]:0.021091,(Liasis_papuana[&!name="Pythonidae",!rotate=false]:0.032008,Liasis_olivaceus[&!name="Pythonidae",!rotate=false]:0.024964)[&BS=47,!name="Pythonidae",!rotate=false]:0.005173)[&BS=97,!name="Pythonidae",!rotate=false]:0.007691)[&BS=36,!name="Pythonidae",!rotate=false]:9.7E-4)[&BS=4,!name="Pythonidae",!rotate=false]:0.00178)[&BS=15,!name="Pythonidae",!rotate=false]:0.004967)[&BS=15,!name="Pythonidae",!rotate=false]:0.002931,((((Python_anchietae[&!name="Pythonidae",!rotate=false]:0.031608,(Python_molurus_molurus[&!name="Pythonidae",!rotate=false]:0.051549,Python_sebae[&!name="Pythonidae",!rotate=false]:0.00333)[&BS=92,!name="Pythonidae",!rotate=false]:0.02678)[&BS=91,!name="Pythonidae",!rotate=false]:0.01077,(Python_curtus[&!name="Pythonidae",!rotate=false]:0.024202,Python_brongersmai[&!name="Pythonidae",!rotate=false]:0.036998)[&BS=100,!name="Pythonidae",!rotate=false]:0.015153)[&BS=51,!name="Pythonidae",!rotate=false]:0.00402,(Python_bivittatus[&!name="Pythonidae",!rotate=false]:0.01512,Python_molurus[&!name="Pythonidae",!rotate=false]:0.00448)[&BS=100,!name="Pythonidae",!rotate=false]:0.029834)[&BS=68,!name="Pythonidae",!rotate=false]:0.005222,Python_regius[&!name="Pythonidae",!rotate=false]:0.063681)[&BS=84,!name="Pythonidae",!rotate=false]:0.010114)[&BS=17,!name="Pythonidae",!collapse={"collapsed",0.300951393551501},!rotate=false]:0.029872)[&BS=17,!rotate=false]:0.025699)[&BS=12,!rotate=false]:0.007833)[&BS=1,!rotate=false]:0.008139)[&BS=19,!rotate=false]:0.006931)[&BS=90,!rotate=true]:0.023205,(((Anolis_carolinensis:0.287197,Iguana_iguana:0.116982)[&BS=100]:0.369082,Liotyphlops_albirostris:0.28652)[&BS=83]:0.030072,(Typhlops_jamaicensis[&!name="Scolecophidia"]:0.240114,Rena_humilis[&!name="Scolecophidia"]:0.233413)[&BS=85,!name="Scolecophidia",!collapse={"collapsed",0.39632843185449274}]:0.029003)[&BS=100]:0.15436)[&BS=92]:0.018393,Anilius_scytale:0.114962)[&BS=92,!name="Tropidophiidae",!collapse={"collapsed",0.3172255645900631}]:0.074218)[&BS=63,!name="Tropidophiidae"]:0.012256)[&BS=100,!name="Tropidophiidae"]:0.023385,Trachyboa_gularis[&!name="Tropidophiidae"]:0.008467);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=3.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="Abadi MT Condensed Extra Bold";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=20;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=366;
+	set legend.attribute="BS";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="BS";
+	set nodeLabels.fontName="Abadi MT Condensed Extra Bold";
+	set nodeLabels.fontSize=14;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=976;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Abadi MT Condensed Extra Bold";
+	set tipLabels.fontSize=14;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="decreasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

@@ -2,3 +2,4 @@ Directory containing all the folders needed for analysis - data and code for Spr
 This project is looking at the effects of various multiple sequence alignment algroithms and their subsequential impact on tree topology and score specifically using concatenated supermatrices. 
 Final concatenated files of each alignment method are in the output folder.
 Phylo infernece was through RAxML under GTR+GAMMA.
+Test text

@@ -3,3 +3,8 @@ This project is looking at the effects of various multiple sequence alignment al
 Final concatenated files of each alignment method are in the output folder.
 Phylo infernece was through RAxML under GTR+GAMMA.
 Test text
+```
+mkdir _04a.Parse.Chrom.Genotype.gVCFs
+mkidr _04b.HardFilter.Chrom.gVCFs
+```
+I typically will split up our cohort gVCF into chromosomes and run hard filtering that way. Using a list `Chrom.list` of our chromosomes we can run the following script
